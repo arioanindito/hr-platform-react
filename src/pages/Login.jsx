@@ -54,7 +54,7 @@ export default function Login() {
 					{/* Submit Button */}
 					<div className="w-full flex flex-col items-center gap-1">
 						<button class=" w-60 bg-[#597EF7] rounded-xl p-3 text-white transition duration-200 hover:bg-[#003087]">
-							Log in
+							Log In
 						</button>
 						<p class="">
 							Don't have an account?{" "}
