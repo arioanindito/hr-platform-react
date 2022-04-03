@@ -17,7 +17,7 @@ export default function Login() {
 				{/* Right Side */}
 				<div className=" w-1/2 flex flex-col items-center justify-center gap-12 pb-[60px]">
 					<div className="w-full flex flex-col gap-5">
-						{/* Image */}
+						{/* Extramus Logo */}
 						<div className="w-full flex justify-center">
 							<img
 								className="w-[200px]"
