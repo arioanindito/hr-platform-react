@@ -66,11 +66,11 @@ export default function Dashboard() {
 				</div>
 			</div>
 
-			{/* Bottom Side */}
+			{/* Bottom */}
 			<div className="dashboardBottom flex flex-[3] p-3 gap-3">
-				{/* Bottom Left */}
+				{/* Bottom Left Side*/}
 				<div className="bottomLeft flex flex-1 flex-col gap-2">
-					{/* Bottom Left Title */}
+					{/* Bottom Left Side - Title */}
 					<div className="titleContainer flex items-center justify-between">
 						<div className="title text-xl font-semibold">What's New</div>
 						<a
@@ -85,17 +85,52 @@ export default function Dashboard() {
 						</a>
 					</div>
 
-					{/* Bottom Left Content */}
+					{/* Bottom Left Side - Content */}
 					<div className="bottomLeftContent bg-white h-full rounded-md border-2"></div>
 				</div>
 
-				{/* Bottom Right */}
+				{/* Bottom Right Side - Top */}
 				<div className="bottomRight flex flex-1 flex-col gap-3">
-					<div className="bottomRightTop flex flex-1 bg-yellow-400">
-						Bottom Right Top
+					<div className="bottomRightTop flex flex-1 flex-col gap-2">
+						{/* Bottom Right Side - Top Title */}
+						<div className="titleContainer flex items-center justify-between">
+							<div className="title text-xl font-semibold">Daily Reminder</div>
+							<a
+								href=""
+								className="viewAll flex items-center justify-center text-[#2F80ED]"
+							>
+								<div>View All (12)</div>
+								<div>
+									{" "}
+									<ArrowForward className="text-md" />
+								</div>
+							</a>
+						</div>
+
+						{/* Bottom Right Side - Bottom Content */}
+						<div className="bottomLeftContent bg-white h-full rounded-md border-2"></div>
 					</div>
-					<div className="bottomRightDown flex flex-1 bg-purple-400">
-						Bottom Right Down
+
+					<div className="bottomRightDown flex flex-1 flex-col gap-2">
+						{/* Bottom Right Side - Bottom Title */}
+						<div className="titleContainer flex items-center justify-between">
+							<div className="title text-xl font-semibold">
+								Upcoming Arrival and Departure
+							</div>
+							<a
+								href=""
+								className="viewAll flex items-center justify-center text-[#2F80ED]"
+							>
+								<div>View All (8)</div>
+								<div>
+									{" "}
+									<ArrowForward className="text-md" />
+								</div>
+							</a>
+						</div>
+
+						{/* Bottom Right Side - Bottom Content */}
+						<div className="bottomLeftContent bg-white h-full rounded-md border-2"></div>
 					</div>
 				</div>
 			</div>

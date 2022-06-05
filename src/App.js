@@ -1,6 +1,7 @@
 import Topbar from "../src/Components/Topbar";
 import Sidebar from "../src/Components/Sidebar";
 import Dashboard from "./pages/Dashboard";
+import Login from "../src/pages/Login";
 
 function App() {
 	return (
